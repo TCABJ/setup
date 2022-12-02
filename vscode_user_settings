@@ -1,0 +1,40 @@
+{
+    "git.ignoreMissingGitWarning": true,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
+    "workbench.activityBar.visible": false,
+    "workbench.editor.showTabs": true,
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": true,
+    "window.menuBarVisibility": "toggle",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 14,
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/*.Rd": true,
+        "**/*.RData": true,
+        "**/CVS": true,
+        "**/packages": true
+    },
+    "editor.rulers": [
+        80
+    ],
+    "editor.wordWrap": "on",
+    "workbench.panel.defaultLocation": "right",
+    "workbench.editor.closeEmptyGroups": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "sync.gist": "d173089e7185c661f75d263733a4ea9e22b09db3",
+    "sync.autoUpload": true,
+    "workbench.iconTheme": null,
+    "workbench.colorTheme": "Monokai",
+    "extensions.ignoreRecommendations": true,
+    "files.eol": "\n",
+    "files.associations": {
+        "*.sql_template": "sql"
+    },
+    "workbench.editor.untitled.hint": "hidden"
+}
