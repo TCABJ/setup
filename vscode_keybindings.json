@@ -1,0 +1,51 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+      "key": "ctrl+`",
+      "command": "workbench.action.terminal.focus"
+    },
+    {
+      "key":     "ctrl+`",
+      "command": "workbench.action.terminal.toggleTerminal",
+      "when":    "terminalFocus"
+    },
+    {
+      "key":     "ctrl+tab",
+      "command": "workbench.action.terminal.focusNext",
+      "when":    "terminalFocus"
+    },
+    {
+      "key":     "ctrl+r",
+      "command": "workbench.action.terminal.runSelectedText",
+      "when":    "editorHasSelection"
+    },
+    {
+      "key":     "ctrl+m",
+      "command": "-editor.action.toggleTabFocusMode"
+    },
+    {
+      "key": "ctrl+1",
+      "command": "-r.nrow",
+      "when": "editorTextFocus && editorLangId == 'r'"
+    },
+    {
+      "key": "ctrl+2",
+      "command": "-r.length",
+      "when": "editorTextFocus && editorLangId == 'r'"
+    },
+    {
+      "key": "ctrl+3",
+      "command": "-r.head",
+      "when": "editorTextFocus && editorLangId == 'r'"
+    },
+    {
+      "key": "ctrl+4",
+      "command": "-r.thead",
+      "when": "editorTextFocus && editorLangId == 'r'"
+    },
+    {
+      "key": "ctrl+5",
+      "command": "-r.names",
+      "when": "editorTextFocus && editorLangId == 'r'"
+    }
+  ]
